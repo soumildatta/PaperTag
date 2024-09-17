@@ -9,6 +9,12 @@ This handy little CLI tool quickly renames your research paper PDFs to their act
 3. It renames each PDF if it can parse the title.
 
 ### Usage:
+Install the required packages using:
+```bash
+pip install -r requirements.txt
+```
+
+Then run the program using
 ```bash
 python papertag.py
 ```
