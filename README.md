@@ -11,7 +11,7 @@ This handy little CLI tool quickly renames your research paper PDFs to their act
 ### Usage:
 Install the required packages using:
 ```bash
-pip install -r requirements.txt
+pip install -r Requirements.txt
 ```
 
 Then run the program using
