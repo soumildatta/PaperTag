@@ -8,7 +8,7 @@ def _extract_pdf_title(pdf_path):
     text_elements = pdf.pq('LTTextLineHorizontal')  
     text = [t.text for t in text_elements]
     index = text.index('')
-    title = ''.join(text[:index]).strip()
+    title = ''.join(text[:index]).strip().split('@')[0].replace('.', '_')
 
     if title == '':
         title = pdf_path.split('/')[-1].replace('.pdf', '')
